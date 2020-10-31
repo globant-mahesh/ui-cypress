@@ -1,0 +1,10 @@
+node_modules/
+allure-report/
+allure-results/
+xunit.xml
+.DS_Store
+**/.DS_Store
+reports/
+cypress/reports/
+cypress/videos/
+cypress/screenshots/

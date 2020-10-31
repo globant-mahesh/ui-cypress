@@ -1,0 +1,34 @@
+{
+  "baseUrl": "https://www.google.com/",
+  "reporter": "cypress-multi-reporters",
+  "reporterOptions": {
+    "configFile": "cypress/reporter-config2.json"
+  },
+  "testFiles": "features/scenarios/*.{feature,features}",
+  "ignoreTestFiles": "*.js",
+  "fixturesFolder": "features/step_definitions/**/",
+  "defaultCommandTimeout": 30000,
+  "viewportWidth": 1000,
+  "viewportHeight": 600,
+  "watchForFileChanges": true,
+  "chromeWebSecurity": true,
+  "waitForAnimation": true,
+  "animationDistanceThreshold": 20,
+  "execTimeout": 90000,
+  "pageLoadTimeout": 90000,
+  "requestTimeout": 15000,
+  "responseTimeout": 15000,
+  "experimentalSourceRewriting": true,
+  "projectId": "dvw51k",
+  "video": false,
+  "videoCompression": 32,
+  "videoUploadOnPasses": false,
+  "screenshotOnRunFailure": true,
+  "retries": {
+    "runMode": 1,
+    "openMode": 2
+  },
+  "env": {
+    "ENV": "Stage"
+  }
+}
